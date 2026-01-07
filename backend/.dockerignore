@@ -1,0 +1,3 @@
+venv
+.gin
+db.sqlite3
