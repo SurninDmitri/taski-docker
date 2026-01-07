@@ -43,7 +43,7 @@ jobs:
       run: |
         python -m ruff check backend/
         cd backend/
-        python manage.py tes
+        python manage.py test
 
   build_and_push_to_docker_hub:
     name: Push Docker image to DockerHub
